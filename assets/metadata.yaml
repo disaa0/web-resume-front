@@ -1,80 +1,102 @@
 # yaml-language-server: $schema=https://json.schemastore.org/yamllint.json
-name: Joe Doe
-title: Software Engineer
-pdf_name: joe-doe.pdf
-cv_link: joedoe.github.io/cv
+name: Santiago Contreras
+title: Software Engineering Student
+pdf_name: santiago-contreras.software-engineering-student.pdf
+cv_link: disaa.dev
 facts:
     - title: Residence
-      url: https://maps.app.goo.gl/UCupEfpjguBUrz1D9
+      url: https://goo.gl/maps/gZaGv9jwZtJKfUUJ7
       icon: <i class="fa fa-home fact-icon">
-      text: New York
+      text: Hermosillo
     - title: GitHub
-      url: https://github.com/joedoe
+      url: https://github.com/disaa0
       icon: <i class="fa-brands fa-github fact-icon">
-      text: joe_doe
+      text: disaa0
     - title: LinkedIn
-      url: https://www.linkedin.com/in/joedoe/
+      url: https://www.linkedin.com/in/disaa0/
       icon: <i class="fa-brands fa-linkedin fact-icon">
-      text: joe_doe
+      text: disaa0
     - title: Email
-      url: mailto:joedoe@mail.com
+      url: mailto:disaan@protonmail.com
       icon: <i class="fa fa-envelope fact-icon">
-      text: joe@mail.com
+      text: disaan@protonmail.com
 
-jobs:
-  - position: Software Developer
-    period: June 2020 - Present
-    company: Tech Solutions Inc.
-    bullet_points:
-      - Developed and maintained web applications using Python and Django.
-      - Collaborated with cross-functional teams to design, develop, and implement new features.
-      - Implemented automated testing and continuous integration using Jenkins.
-    technology:
-      - Python
-      - Django
-      - Jenkins
-  - position: Junior Developer
-    period: January 2018 - May 2020
-    company: CodeCraft
-    bullet_points:
-      - Assisted in the development of internal tools using JavaScript and Node.js.
-      - Participated in code reviews and provided constructive feedback to peers.
-      - Helped maintain code quality and organization.
-    technology:
-      - JavaScript
-      - Node.js
-      - Git
+# jobs:
+#   - position:  
+#     period:  
+#     company:  
+#     bullet_points:
+#       -  
+#       - 
+#       -  
+#     technology:
+#       -  
+#       -  
+#       -  
 
 educations:
-    - degree: Bachelor of Science in Computer Science
-      period: September 2014 - June 2018
-      university: University of Example
+    - degree: 'Information and Communication Systems Engineering'
+      period: 'Aug 2020 - ongoing'
+      university: 'University of Sonora'
       projects: 
-        - title: Inventory Management System
-          position: Lead Developer
-          period: January 2017 - May 2017
-          skills: ['MongoDB', 'Python', 'React']
-          git: '<a href="https://github.com/user/repo"> <i class="fa-brands fa-github"></i> </a>'
-          contents: 
-            I developed an inventory management system for a local business, improving their inventory tracking and reporting capabilities.
-        - title: Personal Portfolio Website
-          position: Developer
-          period: September 2016 - December 2016
-          skills: ['Python', 'Flask']
-          git: '<a href="https://github.com/user/repo"><i class="fa-brands fa-github"></i></a>'
+        - title: 'Notarius'
+          position: QA and Deployment
+          period: 'Sep 2022 - December 2022'
+          skills: ['Python', 'PyInstaller', 'Inno Setup', 'Spiral']
+          git: '<a href="https://github.com/andreadh01/Notarius"> <i class="fa-brands fa-github"></i> </a>'
+          contents: I lead the QA and Deployment development teams of Notarius, a Notary management software. 
+          
+        - title: 'PetCenter'
+          position: 'Lead developer'
+          period: 'Feb 2021 – May 2021'
+          skills: ['Python', 'Flask', 'Google Calendar API']
+          git: '<a href="https://github.com/SanUnison/PetCenter"><i class="fa-brands fa-github"></i></a>'
           contents:
-            I developed my personal portfolio website, showcasing my projects and skills.
+            I lead the development of PetCenter, a website that manages all of the functions of a veterinary.
 
+    - degree: 'Abroad Semester'
+      period: 'Oct 2023 - Feb 2024'
+      university: 'Łódź University of Technology'
+      projects: 
+        - title: "SMS Spam classification model"
+          position: "Developer"
+          period: "Sep 2022 - December 2022"
+          skills: ["Apache Spark", "Machine Learning", "Naive Bayes"]
+          git: '<a href="https://github.com/disaa0/sms-classification"> <i class="fa-brands fa-github"></i> </a>'
+          contents: 
+           Developed an effective machine learning model for classifying SMS messages as spam or non-spam.
+
+        - title: "VR interactive videogame"
+          position: "Developer"
+          period: "Sep 2022 - December 2022"
+          skills: ["Unity", "C#", "MetaQuest"]
+          git: ""
+          contents: 
+            Developed a VR interactive game compatible with Meta Quest headsets using the MetaQuest Unity SDK.
+            
+        - title: "OpenVPN Implementation"
+          position: "Developer"
+          period: "Sep 2022 - December 2022"
+          skills: ["OpenVPN", "Networking", "Linux"]
+          git: ""
+          contents: 
+            Implemented OpenVPN on a Virtual Private Server (VPS) to establish secure and encrypted connections.
 skills:
     - Strong problem-solving skills and ability to work in a team environment.
-    - Eagerness to acquire new skills and knowledge.
-    - Excellent communication and collaboration skills.
-    - Experience in agile development methodologies.
-
+    - Experience with agile software development methodologies.
+    - Deep knowledge of Linux operating systems.
+    - Ability to write clean, maintainable, and efficient code.
+    - Eagerness to acquire new skills and knowledge in the fast-paced fields of technology.
 tech_skills:
     - title: Programming Languages
-      text: Python, Java, C++
+      text: Python, Java, C++, Bash
+    - title: Cloud Computing
+      text: AWS
+    - title: Containerization
+      text: Docker, Kubernetes
+    - title: CI/CD
+      text: Jenkins
     - title: Version Control
-      text: Git, GitHub
+      text: Github
     - title: Languages
-      text: 'Spanish: Native, English: Professional Fluency'
+      text: 'Spanish: Native, English: C1' 
