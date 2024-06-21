@@ -31,3 +31,6 @@ jobs:
     - name: Unit testing
       run: |
         python -m unittest discover tests
+    - name: Run application
+      run: |
+        python app.py
