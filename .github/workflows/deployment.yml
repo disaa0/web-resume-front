@@ -1,0 +1,47 @@
+name: 'Deploy to S3'
+
+on:
+  workflow_run:
+    workflows: ["testing"]
+    types:
+      - completed
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deployment:
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push' && github.event.workflow_run.head_branch == 'main' }}
+    name: 'Deployment'
+    runs-on: ubuntu-latest
+    environment: production
+
+    # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+    # Checkout the repository to the GitHub Actions runner
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Configure AWS Credentials
+      # You may pin to the exact commit or the version.
+      # uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        # AWS Region, e.g. us-east-2
+        aws-region: us-east-2 
+        # The Amazon Resource Name (ARN) of the role to assume. Use the provided credentials to assume an IAM role and configure the Actions environment with the assumed role credentials rather than with the provided credentials.
+        role-to-assume: arn:aws:iam::767398113748:role/web-resume-front
+
+    - name: Sync directory to S3
+      run: |
+        aws s3 sync dist s3://disaadev --delete
+
+    - name: Invalidate CloudFront cache
+      run: |
+        aws cloudfront create-invalidation --distribution-id E2ZRFDB082WSN6 --paths "/*"
+
