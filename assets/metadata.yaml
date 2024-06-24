@@ -88,15 +88,17 @@ skills:
     - Ability to write clean, maintainable, and efficient code.
     - Eagerness to acquire new skills and knowledge in the fast-paced fields of technology.
 tech_skills:
-    - title: Programming Languages
-      text: Python, Java, C++, Bash
+    - title: Programming
+      text: Python, Java, C++, Shell Scripting
     - title: Cloud Computing
-      text: AWS
+      text: AWS (S3, CloudFront, API Gateway, Lambda, DynamoDB)
     - title: Containerization
-      text: Docker, Kubernetes
+      text: Docker
     - title: CI/CD
-      text: Jenkins
+      text: Jenkins, GitHub Actions, Terraform
     - title: Version Control
-      text: Github
+      text: Git, GitHub
+    - title: Databases
+      text: PostgreSQL, MySQL, DynamoDB
     - title: Languages
       text: 'Spanish: Native, English: C1' 

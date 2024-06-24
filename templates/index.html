@@ -197,6 +197,10 @@ async function getVisitors() {
 }
 
 async function updateVisitors(visitor_count) {
+    if (typeof visitor_count !== 'number' || visitor_count < 0) {
+        console.error('Invalid visitor count');
+        return;
+    }
     try {
         fetch(apiUrl + 'update-visitors', {
             method: 'POST',
