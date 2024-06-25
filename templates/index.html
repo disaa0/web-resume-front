@@ -153,7 +153,29 @@
                 </div>
             </div>
             {% endif %}
+        </div> 
+        {% if data.personal_projects %}
+        <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+            <h2 class="mb-3 print-h2 mb-print-05">Projects</h2>
+            <ul>
+                {% for project in data.personal_projects %}
+                <li>
+                    <div class="mb-0">
+                        <b>{{ project.title }}</b>
+                    </div>
+                    <div class="mb-0">
+                        {{ project.description }}
+                        {{ project.link}}
+                    <div>
+                        {% for skill in project.skills %}
+                        <span class="badge text-body border border-1">{{ skill }}</span>
+                        {% endfor %}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
+        {% endif %}
         <div class="d-print-none mb-3 text-center">
             <span>Visitor counter: </span>
             <span id="counter"></span>
