@@ -118,4 +118,4 @@ personal_projects:
     - title: Cloud Resume Challenge
       description: Developed a serverless personal resume website using AWS. Automated infrastructure with Terraform and CI/CD with GitHub Actions. Documented the project in a detailed 
       skills: ['S3', 'Lambda', 'API Gateway', 'DynamoDB', 'CloudFront', 'Terraform', 'GitHub Actions']
-      link: '<a href="">blog post</a>.'
+      link: '<a href="https://disaa.hashnode.dev/cloud-resume-challenge-aws">blog post</a>.'
