@@ -7,10 +7,10 @@ photo: photo.jpg
 use_favicon: true
 favicon: favicon.ico
 pdf_generation: true
-pdf_name: santiago-contreras.software-engineering-student.pdf
+pdf_name: san-contreras.software-engineering-student.pdf
 
 #Metadata
-name: Santiago Contreras
+name: San Contreras
 title: Software Engineering Student
 resume_link: disaa.dev
 facts:
