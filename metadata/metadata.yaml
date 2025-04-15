@@ -14,112 +14,124 @@ name: San Contreras
 title: Software Engineering Student
 resume_link: disaa.dev
 facts:
-    - title: Residence
-      url: https://goo.gl/maps/gZaGv9jwZtJKfUUJ7
-      icon: <i class="fa fa-home fact-icon"></i>
-      text: Hermosillo
-    - title: GitHub
-      url: https://github.com/disaa0
-      icon: <i class="fa-brands fa-github fact-icon"></i>
-      text: disaa0
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/disaa0/
-      icon: <i class="fa-brands fa-linkedin fact-icon"></i>
-      text: disaa0
-    - title: Email
-      url: mailto:san.contreras@proton.me
-      icon: <i class="fa fa-envelope fact-icon"></i>
-      text: san.contreras@proton.me
+  - title: Residence
+    url: https://goo.gl/maps/gZaGv9jwZtJKfUUJ7
+    icon: <i class="fa fa-home fact-icon"></i>
+    text: Hermosillo
+  - title: GitHub
+    url: https://github.com/disaa0
+    icon: <i class="fa-brands fa-github fact-icon"></i>
+    text: disaa0
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/disaa0/
+    icon: <i class="fa-brands fa-linkedin fact-icon"></i>
+    text: disaa0
+  - title: Email
+    url: mailto:san.contreras@proton.me
+    icon: <i class="fa fa-envelope fact-icon"></i>
+    text: san.contreras@proton.me
 
 # jobs:
-#   - position:  
-#     period:  
-#     company:  
+#   - position:
+#     period:
+#     company:
 #     bullet_points:
-#       -  
-#       - 
-#       -  
+#       -
+#       -
+#       -
 #     technology:
-#       -  
-#       -  
-#       -  
+#       -
+#       -
+#       -
 
 educations:
-    - degree: 'Information and Communication Systems Engineering'
-      period: 'Aug 2020 - present'
-      university: 'University of Sonora'
-      projects: 
-        - title: 'Notarius'
-          position: QA and Deployment
-          period: 'Sep 2022 - December 2022'
-          skills: ['Python', 'PyInstaller', 'Inno Setup', 'Spiral']
-          link: '<a href="https://github.com/andreadh01/Notarius"> <i class="fa-brands fa-github"></i> </a>'
-          contents: I lead the QA and Deployment development teams of Notarius, a Notary management software. 
-          
-        - title: 'PetCenter'
-          position: 'Lead developer'
-          period: 'Feb 2021 – May 2021'
-          skills: ['Python', 'Flask', 'Google Calendar API']
-          link: '<a href="https://github.com/SanUnison/PetCenter"><i class="fa-brands fa-github"></i></a>'
-          contents:
-            I lead the development of PetCenter, a website that manages all of the functions of a veterinary.
+  - degree: "Information and Communication Systems Engineering"
+    period: "Aug 2020 - present"
+    university: "University of Sonora"
+    projects:
+      - title: "Eddy's App"
+        position: "Technical Lead"
+        period: "Jan 2025 - present"
+        skills: ["React Native", "ExpressJS", "Docker", "MySQL", "Stripe"]
+        link: '<a href="https://github.com/disaa0/eddys-tender-app"> <i class="fa-brands fa-github"></i> </a>'
+        contents: Led development of a cross-platform mobile application for a local restaurant chain.
+
+      - title: "Notarius"
+        position: QA and Deployment
+        period: "Sep 2022 - December 2022"
+        skills: ["Python", "PyInstaller", "Inno Setup", "Spiral"]
+        link: '<a href="https://github.com/andreadh01/Notarius"> <i class="fa-brands fa-github"></i> </a>'
+        contents: Led QA and Deployment development teams of Notarius, a Notary management software.
+
+      - title: "PetCenter"
+        position: "Lead developer"
+        period: "Feb 2021 – May 2021"
+        skills: ["Python", "Flask", "Google Calendar API"]
+        link: '<a href="https://github.com/SanUnison/PetCenter"><i class="fa-brands fa-github"></i></a>'
+        contents: Led development of PetCenter, a website that manages all of the functions of a veterinary.
+    #relevant_courses:
+
+  - degree: "Abroad Studies"
+    period: "Oct 2023 - Feb 2024, Oct 2024 - Feb 2025"
+    university: "Łódź University of Technology"
+    projects:
+      - title: "SMS Spam classification model"
+        position: "Developer"
+        period: "Sep 2022 - December 2022"
+        skills: ["Apache Spark", "Machine Learning", "Naive Bayes"]
+        link: '<a href="https://github.com/disaa0/sms-classification"> <i class="fa-brands fa-github"></i> </a>'
+        contents: Developed effective machine learning model for classifying SMS messages as spam.
+
+      - title: "OpenVPN Implementation"
+        position: "Developer"
+        period: "Sep 2022 - December 2022"
+        skills: ["OpenVPN", "Networking", "Linux"]
+        link: ""
+        contents: Implemented OpenVPN on a VPS to establish secure and encrypted connections.
       #relevant_courses:
-
-    - degree: 'Abroad Studies'
-      period: 'Oct 2023 - Feb 2024, Oct 2024 - Feb 2025'
-      university: 'Łódź University of Technology'
-      projects: 
-        - title: "SMS Spam classification model"
-          position: "Developer"
-          period: "Sep 2022 - December 2022"
-          skills: ["Apache Spark", "Machine Learning", "Naive Bayes"]
-          link: '<a href="https://github.com/disaa0/sms-classification"> <i class="fa-brands fa-github"></i> </a>'
-          contents: 
-           Developed effective machine learning model for classifying SMS messages as spam.
-
-        - title: "VR interactive videogame"
-          position: "Developer"
-          period: "Sep 2022 - December 2022"
-          skills: ["Unity", "C#", "MetaQuest"]
-          link: ""
-          contents: 
-            Developed VR interactive game compatible with Meta Quest headsets using the MetaQuest Unity SDK.
-            
-        - title: "OpenVPN Implementation"
-          position: "Developer"
-          period: "Sep 2022 - December 2022"
-          skills: ["OpenVPN", "Networking", "Linux"]
-          link: ""
-          contents: 
-            Implemented OpenVPN on a VPS to establish secure and encrypted connections.
-        #relevant_courses:
 skills:
-    - Strong problem-solving skills and ability to work in a team environment.
-    - Experience with agile software development methodologies.
-    - Deep knowledge of Linux operating systems.
-    - Ability to write clean, maintainable, and efficient code.
-    - Eagerness to acquire new skills and knowledge in the fast-paced fields of technology.
+  - Strong problem-solving skills and ability to work in a team environment.
+  - Experience with agile software development methodologies.
+  - Deep knowledge of Linux operating systems.
+  - Ability to write clean, maintainable, and efficient code.
+  - Eagerness to acquire new skills and knowledge in the fast-paced fields of technology.
 tech_skills:
-    - title: Programming
-      text: Python, Java, C++, Shell Scripting, Java Script
-    - title: Cloud Computing
-      text: AWS (S3, CloudFront, API Gateway, Lambda, DynamoDB, Cognito)
-    - title: Containerization
-      text: Docker
-    - title: CI/CD
-      text: Jenkins, GitHub Actions, Terraform
-    # - title: Version Control
-      # text: Git, GitHub
-    - title: Databases
-      text: PostgreSQL, MySQL, DynamoDB
-    - title: Languages
-      text: 'Spanish, English' 
+  - title: Programming
+    text: Python, Java, C++, Shell Scripting, Java Script, Dart
+  - title: Cloud Computing
+    text: AWS (S3, CloudFront, API Gateway, Lambda, DynamoDB, Cognito), GCP
+  - title: Containerization
+    text: Docker, Docker Compose
+  - title: CI/CD
+    text: Jenkins, GitHub Actions, Terraform
+  # - title: Version Control
+  # text: Git, GitHub
+  - title: Databases
+    text: PostgreSQL, MySQL, DynamoDB, Firestore
+  - title: Languages
+    text: "Spanish, English"
 personal_projects:
-    - title: Cloud Resume Challenge
-      description: Developed a serverless personal resume website using AWS. Automated infrastructure with Terraform and CI/CD with GitHub Actions. Documented the project in a detailed 
-      skills: ['S3', 'Lambda', 'API Gateway', 'DynamoDB', 'CloudFront', 'Terraform', 'GitHub Actions']
-      link: '<a href="https://disaa.hashnode.dev/cloud-resume-challenge-aws">blog post</a>.'
-    - title: Assessing the Use of GitHub Copilot on Students of Engineering of Information Systems
-      description: Collaborated on the experimental design and analysis for a publication examining the impact of AI programming assistants like GitHub Copilot on software engineering efficiency.
-      skills: ['Python', 'GitHub Copilot', 'Experimental Design', 'Statistical Analysis', 'Research Collaboration']  
-      link: '<a href="https://doi.org/10.1142/S0218194024500335">Publication</a>'
+  - title: Cloud Resume Challenge
+    description: Developed a serverless personal resume website using AWS. Automated infrastructure with Terraform and CI/CD with GitHub Actions. Documented the project in a detailed
+    skills:
+      [
+        "S3",
+        "Lambda",
+        "API Gateway",
+        "DynamoDB",
+        "CloudFront",
+        "Terraform",
+        "GitHub Actions",
+      ]
+    link: '<a href="https://disaa.hashnode.dev/cloud-resume-challenge-aws">blog post</a>.'
+  - title: Assessing the Use of GitHub Copilot on Students of Engineering of Information Systems
+    description: Collaborated on the experimental design and analysis for a publication examining the impact of AI programming assistants like GitHub Copilot on software engineering efficiency.
+    skills:
+      [
+        "Python",
+        "GitHub Copilot",
+        "Experimental Design",
+        "Statistical Analysis",
+        "Research Collaboration",
+      ]
+    link: '<a href="https://doi.org/10.1142/S0218194024500335">Publication</a>'
