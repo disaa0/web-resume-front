@@ -31,18 +31,27 @@ facts:
     icon: <i class="fa fa-envelope fact-icon"></i>
     text: san.contreras@proton.me
 
-# jobs:
-#   - position:
-#     period:
-#     company:
-#     bullet_points:
-#       -
-#       -
-#       -
-#     technology:
-#       -
-#       -
-#       -
+jobs:
+  - position: "Software Architect & Backend Engineer"
+    period: "Jan 2025 - present"
+    company: "Roots"
+    bullet_points:
+      - Built E2EE backend for family social platform using Firebase Functions, WebSockets, and zero-knowledge encryption
+      - Set up event-driven microservices with Firestore database and Redis caching to handle multiple family groups concurrently
+      - Built infrastructure as code using Terraform modules for GCP resources, enabling reproducible deployments across environments
+      - Developed MCP server for API documentation and multi-threaded AI agents automating code reviews
+      - Shaped product technical requirements while establishing TDD practices and modular architecture patterns across the team
+    technology:
+      - Terraform
+      - GCP
+      - Firebase
+      - Node.js
+      - Redis
+      - Docker
+      - WebSockets
+      - MCP
+      - Swagger/OpenAPI
+      - Mocha/Chai
 
 educations:
   - degree: "Information and Communication Systems Engineering"
@@ -51,7 +60,7 @@ educations:
     projects:
       - title: "Eddy's App"
         position: "Technical Lead"
-        period: "Jan 2025 - present"
+        period: "Jan 2025 - May 2025"
         skills: ["React Native", "ExpressJS", "Docker", "MySQL", "Stripe"]
         link: '<a href="https://github.com/disaa0/eddys-tender-app"> <i class="fa-brands fa-github"></i> </a>'
         contents: Led development of a cross-platform mobile application for a local restaurant chain.
@@ -63,53 +72,26 @@ educations:
         link: '<a href="https://github.com/andreadh01/Notarius"> <i class="fa-brands fa-github"></i> </a>'
         contents: Led QA and Deployment development teams of Notarius, a Notary management software.
 
-      - title: "PetCenter"
-        position: "Lead developer"
-        period: "Feb 2021 – May 2021"
-        skills: ["Python", "Flask", "Google Calendar API"]
-        link: '<a href="https://github.com/SanUnison/PetCenter"><i class="fa-brands fa-github"></i></a>'
-        contents: Led development of PetCenter, a website that manages all of the functions of a veterinary.
-    #relevant_courses:
-
   - degree: "Abroad Studies"
     period: "Oct 2023 - Feb 2024, Oct 2024 - Feb 2025"
     university: "Łódź University of Technology"
-    projects:
-      - title: "SMS Spam classification model"
-        position: "Developer"
-        period: "Sep 2022 - December 2022"
-        skills: ["Apache Spark", "Machine Learning", "Naive Bayes"]
-        link: '<a href="https://github.com/disaa0/sms-classification"> <i class="fa-brands fa-github"></i> </a>'
-        contents: Developed effective machine learning model for classifying SMS messages as spam.
-
-      - title: "OpenVPN Implementation"
-        position: "Developer"
-        period: "Sep 2022 - December 2022"
-        skills: ["OpenVPN", "Networking", "Linux"]
-        link: ""
-        contents: Implemented OpenVPN on a VPS to establish secure and encrypted connections.
-      #relevant_courses:
+    relevant_courses: "Big Data Analytics • Advanced Network Security • Cloud Computing & Distributed Systems"
 skills:
   - Strong problem-solving skills and ability to work in a team environment.
   - Experience with agile software development methodologies.
   - Deep knowledge of Linux operating systems.
   - Ability to write clean, maintainable, and efficient code.
-  - Eagerness to acquire new skills and knowledge in the fast-paced fields of technology.
 tech_skills:
   - title: Programming
-    text: Python, Java, C++, Shell Scripting, Java Script, Dart
-  - title: Cloud Computing
-    text: AWS (S3, CloudFront, API Gateway, Lambda, DynamoDB, Cognito), GCP
-  - title: Containerization
-    text: Docker, Docker Compose
-  - title: CI/CD
-    text: Jenkins, GitHub Actions, Terraform
-  # - title: Version Control
-  # text: Git, GitHub
+    text: Python, Java, C++, JavaScript, TypeScript, Shell, Dart
+  - title: Cloud & DevOps
+    text: AWS, GCP, Firebase, Docker, Terraform, GitHub Actions, Jenkins
+  - title: Backend & APIs
+    text: Node.js, Express.js, Firebase Functions, WebSockets, Redis, Swagger/OpenAPI
   - title: Databases
     text: PostgreSQL, MySQL, DynamoDB, Firestore
   - title: Languages
-    text: "Spanish, English"
+    text: Spanish (Native), English (Fluent)
 personal_projects:
   - title: Cloud Resume Challenge
     description: Developed a serverless personal resume website using AWS. Automated infrastructure with Terraform and CI/CD with GitHub Actions. Documented the project in a detailed
@@ -124,6 +106,10 @@ personal_projects:
         "GitHub Actions",
       ]
     link: '<a href="https://disaa.hashnode.dev/cloud-resume-challenge-aws">blog post</a>.'
+  - title: Web Resume Builder
+    description: Developed an open-source static resume generator that creates both HTML and PDF versions from YAML configuration. Features multiple templates, automated GitHub Pages deployment, and customizable styling.
+    skills: ["Python", "Jinja2", "Playwright", "GitHub Actions", "HTML/CSS"]
+    link: '<a href="https://github.com/disaa0/web-resume">GitHub</a>'
   - title: Assessing the Use of GitHub Copilot on Students of Engineering of Information Systems
     description: Collaborated on the experimental design and analysis for a publication examining the impact of AI programming assistants like GitHub Copilot on software engineering efficiency.
     skills:
@@ -132,6 +118,6 @@ personal_projects:
         "GitHub Copilot",
         "Experimental Design",
         "Statistical Analysis",
-        "Research Collaboration",
+        "Research",
       ]
     link: '<a href="https://doi.org/10.1142/S0218194024500335">Publication</a>'
